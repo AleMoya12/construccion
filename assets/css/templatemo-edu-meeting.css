@@ -234,7 +234,7 @@ body {
 .main-button-red a {
     font-size: 13px;
     color: #fff;
-    background-color: #a12c2f;
+    background-color: #f5a425;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 22px;
@@ -781,7 +781,11 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(31, 39, 43, 0.75);
+    background-image: url(../images/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     top: 0;
     left: 0;
     bottom: 0;
@@ -853,10 +857,8 @@ services
 }
 
 .services .item {
-    background-image: url(../images/service-item-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-color: #89898f;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #89898f 10px ), repeating-linear-gradient( #2f2d2d55, #2f2d2d );
     border-radius: 20px;
     text-align: center;
     color: #fff;
@@ -1004,7 +1006,7 @@ section.upcoming-meetings .categories ul li a {
 }
 
 section.upcoming-meetings .categories ul li a:hover {
-    color: #a12c2f;
+    color: #f5a425;
 }
 
 section.upcoming-meetings .categories .main-button-red {
@@ -1064,7 +1066,7 @@ section.upcoming-meetings .categories .main-button-red a {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #a12c2f;
+    color: #f5a425;
 }
 
 .meeting-item .down-content .date span {
@@ -1225,7 +1227,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info span {
-    color: #a12c2f;
+    color: #f5a425;
     font-size: 15px;
     font-weight: 600;
     text-align: right;
@@ -1466,7 +1468,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
     font-size: 13px;
     color: #fff;
-    background-color: #a12c2f;
+    background-color: #f5a425;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 22px;
@@ -1482,7 +1484,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-    background-color: #a12c2f;
+    background-color: #f5a425;
     border-radius: 20px;
     padding: 40px;
 }
@@ -1591,7 +1593,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
     font-size: 13px;
-    color: #a12c2f;
+    color: #f5a425;
     background-color: #fff;
     padding: 11px 30px;
     display: inline-block;
@@ -1605,7 +1607,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-    background-color: #a12c2f;
+    background-color: #f5a425;
     color: #fff;
 }
 
@@ -1646,7 +1648,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-    background-color: #a12c2f;
+    background-color: #f5a425;
     color: #fff;
 }
 
@@ -1697,7 +1699,7 @@ section.meetings-page .pagination ul li a:hover {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #a12c2f;
+    color: #f5a425;
 }
 
 .meeting-single-item .thumb .date span {
