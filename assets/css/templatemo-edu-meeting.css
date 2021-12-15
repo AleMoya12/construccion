@@ -781,11 +781,10 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-image: url(../images/fondo1.jpg);
+    background-image: url(../images/099.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     top: 0;
     left: 0;
     bottom: 0;
@@ -843,30 +842,35 @@ banner
     }
 }
 
+
 /* whatsapp */
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-.float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
+
+.my-float {
+    margin-top: 16px;
+}
+
+
 /*
 ---------------------------------------------
 services
@@ -881,7 +885,7 @@ services
 
 .services .item {
     background-color: #89898f;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #89898f 10px ), repeating-linear-gradient( #2f2d2d55, #2f2d2d );
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #89898f 10px), repeating-linear-gradient( #2f2d2d55, #2f2d2d);
     border-radius: 20px;
     text-align: center;
     color: #fff;
@@ -1121,7 +1125,7 @@ apply now
 */
 
 section.apply-now {
-    background-image: url(../images/011.jpg);
+    background-image: url(../images/055.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1413,7 +1417,7 @@ section.our-facts h2 {
 section.our-facts .video {
     text-align: center;
     margin-left: 70px;
-    background-image: url(../images/033.jpg);
+    background-image: url(../images/011.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
