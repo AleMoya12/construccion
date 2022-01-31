@@ -646,7 +646,7 @@ header
     .header-area .main-nav:before {
         display: none;
     }
-    .logo{
+    .logo {
         width: 30%;
     }
 }
@@ -658,7 +658,6 @@ header
         margin: auto;
         padding-top: 8px;
     }
-   
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
         color: #f5a425!important;
@@ -790,7 +789,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-image: url(../images/099.jpg);
+    background-image: url(../images/0444.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -849,7 +848,7 @@ banner
     .main-banner .caption h2 {
         font-size: 36px;
     }
-    .logo{
+    .logo {
         width: 30%;
     }
 }
@@ -893,7 +892,6 @@ services
     margin-top: -100px;
     position: absolute;
     width: 100%;
-
 }
 
 .services .item {
@@ -1138,7 +1136,7 @@ apply now
 */
 
 section.apply-now {
-    background-image: url(../images/088.jpg);
+    background-image: url(../images/055.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1147,7 +1145,7 @@ section.apply-now {
 }
 
 section.apply-now .item {
-    background-color: rgba(250, 250, 250, 0.15);
+    background-color: rgba(48, 48, 48, 0.589);
     padding: 40px;
     margin-bottom: 30px;
 }
@@ -1929,10 +1927,10 @@ responsive
 }
 
 @media (max-width: 767px) {
-    .services{
+    .services {
         margin-top: 0px;
     }
-    section.apply-now .item{
+    section.apply-now .item {
         margin-top: 20px;
     }
     .sub-header .left-content p {
