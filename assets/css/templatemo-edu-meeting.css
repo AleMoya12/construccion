@@ -1954,7 +1954,7 @@ responsive
         top: 60%;
     }
 }
-@media (max-width: 424px) {
+@media (max-width: 426px) {
     .menuMovil{
         display: block;
            
